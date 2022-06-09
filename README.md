@@ -1,6 +1,10 @@
 # PortfolioWebsite
 This project represents my portfolio website code at www.robinvc.be
 
+# Packages
+
+node.js v16.15.1
+
 # Development notes
 
 I will write notes here for myself which relates to building the website:
