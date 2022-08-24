@@ -3,6 +3,9 @@ This project represents my portfolio website code at www.robinvc.be
 
 # Software
 
+Platforms:
+* Amazon Web services (AWS)
+
 Versions:
 * Angular: v14.0.0
 * Nodejs: v16.15.1
