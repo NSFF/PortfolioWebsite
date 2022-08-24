@@ -5,6 +5,8 @@ This project represents my portfolio website code at www.robinvc.be
 
 Platforms:
 * Amazon Web services (AWS)
+    * S3 Bucket
+    * Route 53
 
 Versions:
 * Angular: v14.0.0
