@@ -1,0 +1,8 @@
+.green-shadow-sm {
+  box-shadow: 0 0.25rem 0.75rem rgba(3, 117, 13, 0.318) !important;
+}
+
+.green-navbar-link:hover {
+  transition: 0.75s;
+  background-color: rgba(3, 117, 13, 0.318);
+}
