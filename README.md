@@ -31,3 +31,4 @@ ng build && npm run aws-deploy
 * Helped me setup and host a static website using an S3 bucket: https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html#website-hosting-custom-domain-walkthrough-domain-registry
 * Setting up https on my website with SSL public certification using Amazon Cloudfront: https://adamtheautomator.com/aws-s3-static-ssl-website/
 * Introduction tutorial to angular: https://www.youtube.com/watch?v=k5E2AVpwsko
+* Bootstrap 5 js not working in angular: https://www.youtube.com/watch?v=sz6zcBwPWnU
