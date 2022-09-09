@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
+  navigationList = ["About", "Work Experience", "Education", "Skills", "Projects", "Contact"]
+
   constructor() { }
 
   ngOnInit(): void {
