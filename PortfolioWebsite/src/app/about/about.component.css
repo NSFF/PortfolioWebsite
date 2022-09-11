@@ -1,0 +1,41 @@
+.backgroundVideo {
+  position: absolute;
+  z-index: -1;
+}
+
+#backgroundVideoSize {
+  position: fixed;
+  width: 100%;
+  object-fit: cover;
+  height: 60%;
+}
+
+.videoDarkening {
+  position: fixed;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 60%;
+}
+
+.profilePicture {
+  float: left;
+  margin: 0 auto;
+  width: 35%;
+  border-radius: 10%;
+  border: 0.20rem solid rgba(3, 117, 13, 0.318);
+}
+
+.cardCenter {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  top: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+
+.profilePicture:hover {
+  transition: 0.75s;
+  width: 45%;
+}

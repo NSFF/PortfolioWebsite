@@ -32,3 +32,6 @@ ng build && npm run aws-deploy
 * Setting up https on my website with SSL public certification using Amazon Cloudfront: https://adamtheautomator.com/aws-s3-static-ssl-website/
 * Introduction tutorial to angular: https://www.youtube.com/watch?v=k5E2AVpwsko
 * Bootstrap 5 js not working in angular: https://www.youtube.com/watch?v=sz6zcBwPWnU
+* Video background in html: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+* Bootstrap 5 Cards documentation: https://getbootstrap.com/docs/5.0/components/card/
+* Auto play of video's on refresh not working: https://stackoverflow.com/questions/53756695/angular-html-fullscreen-video-autoplay-not-working
