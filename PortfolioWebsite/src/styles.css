@@ -9,3 +9,27 @@
   transition: 0.75s;
   background-color: rgba(3, 117, 13, 0.318);
 }
+
+@media (min-width: 700px) {
+  .bgBlock {
+    margin-top: 6rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 1rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .bgBlock {
+    margin-top: 6rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 1rem;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+}
