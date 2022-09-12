@@ -1,5 +1,5 @@
 <div class="bgBlock">
-    <h2 class="ms-2">Skills</h2>
+    <h2 class="ms-2 text-center">Skills</h2>
     <ul class="list-group">
         <h4 class="skillLegend ms-2 text-center">5 - Expert |
             4 - Advanced |
@@ -7,12 +7,14 @@
             2 - Familiar |
             1 - Beginner</h4>
         <li class="list-group-item">
+            <h2 class="ms-2 text-center">Programming Languages</h2>
             <div class="barChart">
                 <canvas height="130%" baseChart [datasets]="barChartData" [labels]="barChartLabels"
                     [options]="barChartOptions" [plugins]="barChartPlugins" [legend]="barChartLegend"></canvas>
             </div>
         </li>
         <li class="list-group-item">
+            <h2 class="ms-2 text-center">Frameworks and Software</h2>
             <div class="barChart">
                 <canvas height="130%" baseChart [datasets]="frameworkChartData" [labels]="frameworkChartLabels"
                     [options]="frameworkChartOptions" [plugins]="frameworkChartPlugins"
@@ -20,6 +22,7 @@
             </div>
         </li>
         <li class="list-group-item">
+            <h2 class="ms-2 text-center">Data Science/Machine Learning Knowledge</h2>
             <div class="barChart">
                 <canvas height="350%" baseChart [data]="knowledgeChartData" [labels]="knowledgeChartLabels"
                     [options]="knowledgeChartOptions" [plugins]="knowledgeChartPlugins" [legend]="knowledgeChartLegend"
