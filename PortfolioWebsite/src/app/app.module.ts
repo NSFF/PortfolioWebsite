@@ -9,6 +9,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { NgChartsModule } from 'ng2-charts';
+import { CertificatesComponent } from './certificates/certificates.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NgChartsModule } from 'ng2-charts';
     AboutComponent,
     WorkExperienceComponent,
     EducationComponent,
-    SkillsComponent
+    SkillsComponent,
+    CertificatesComponent
   ],
   imports: [
     BrowserModule,

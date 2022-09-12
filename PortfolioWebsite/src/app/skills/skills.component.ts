@@ -36,7 +36,7 @@ export class SkillsComponent implements OnInit {
   knowledgeChartData: ChartData<'radar'> = {
     labels: this.knowledgeChartLabels,
     datasets: [
-    {data: [4,3,3,3,3,3,2,2,1], label: 'Data Science/Machine learning Knowledge'}
+    {data: [4,3,3,3,3,3,2,2,1], label: 'Data Science/Machine learning Knowledge', backgroundColor: "rgba(3, 117, 13, 0.5)", borderColor: "rgb(0, 187, 255,0.3)", pointBackgroundColor: "rgb(0, 187, 255,0.3)"}
   ]}
   knowledgeChartOptions: ChartConfiguration['options'] = {
     responsive: true,
