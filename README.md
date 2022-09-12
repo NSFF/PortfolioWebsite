@@ -35,3 +35,4 @@ ng build && npm run aws-deploy
 * Video background in html: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
 * Bootstrap 5 Cards documentation: https://getbootstrap.com/docs/5.0/components/card/
 * Auto play of video's on refresh not working: https://stackoverflow.com/questions/53756695/angular-html-fullscreen-video-autoplay-not-working
+* Setting up a barchart in Angular: https://www.youtube.com/watch?v=N1kbXS4tjMw
