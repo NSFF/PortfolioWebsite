@@ -9,21 +9,21 @@ import { ChartConfiguration, ChartData, ChartEvent, ChartType } from 'chart.js';
 })
 export class SkillsComponent implements OnInit {
 
-  barChartLabels= ['Python','C', 'JS/TS', 'Scala', 'Java', 'Assembly', 'Racket', 'Matlab', 'HTML', 'CSS', 'PHP','ASP.Net', '.Net','C#','SQL', 'XML', 'JSON', 'Swift'];
+  barChartLabels= ['Python','C', 'JS/TS', 'Scala', 'Java', 'Assembly', 'Racket', 'Matlab', 'HTML', 'CSS', 'PHP','C#','SQL', 'XML', 'JSON', 'Swift'];
   barChartLegend = true;
   barChartPlugins = [pluginDataLabels];
   barChartData = [
-    {data: [4,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2], label: ['Programming Languages'], backgroundColor: ["rgba(3, 117, 13, 0.5)","rgb(0, 187, 255,0.5)"], hoverBackgroundColor: ["rgba(3, 117, 13)", "rgb(0, 187, 255)"]},
+    {data: [4,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2], label: ['Programming Languages'], backgroundColor: ["rgba(3, 117, 13, 0.5)","rgb(0, 187, 255,0.5)"], hoverBackgroundColor: ["rgba(3, 117, 13)", "rgb(0, 187, 255)"]},
   ]
   barChartOptions = {
     responsive: true,
   }
 
-  frameworkChartLabels= ['Keras', 'Scikit-learn', 'Seaborn', 'NumPy', 'Pandas','Laravel', 'PyTorch', 'MySQL', 'TensorFlow', 'NN4j', 'Angular', 'AWS', 'Git', 'Docker', 'SPSS'];
+  frameworkChartLabels= ['Keras', 'Scikit-learn', 'Seaborn', 'NumPy', 'Pandas','Laravel', 'PyTorch', 'MySQL', 'TensorFlow', 'NN4j', 'Angular', 'AWS', 'Git', 'ASP.Net', '.Net', 'Docker', 'SPSS'];
   frameworkChartLegend = true;
   frameworkChartPlugins = [pluginDataLabels];
   frameworkChartData = [
-    {data: [4,3,3,3,3,3,2,2,2,2,2,2,2,2,2], label: ['Frameworks and Software'], backgroundColor: ["rgba(3, 117, 13, 0.5)","rgb(0, 187, 255,0.5)"], hoverBackgroundColor: ["rgba(3, 117, 13)", "rgb(0, 187, 255)"]},
+    {data: [4,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2], label: ['Frameworks and Software'], backgroundColor: ["rgba(3, 117, 13, 0.5)","rgb(0, 187, 255,0.5)"], hoverBackgroundColor: ["rgba(3, 117, 13)", "rgb(0, 187, 255)"]},
   ]
   frameworkChartOptions = {
     responsive: true,

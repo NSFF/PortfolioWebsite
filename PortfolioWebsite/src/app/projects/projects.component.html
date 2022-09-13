@@ -6,7 +6,8 @@
                 <p class="text-center">Programming Language:</p>
                 <select class="form-select" name="Languages" [(ngModel)]="filters.languages">
                     <option selected value="">Select All</option>
-                    <option value="MySQL">MySQL</option>
+
+                    <option *ngFor="let item of projects.languages" value="{{ item }}">{{ item }}</option>
                 </select>
             </div>
 
@@ -14,8 +15,7 @@
                 <p class="text-center">Framework/Software:</p>
                 <select class="form-select" name="frameworks" [(ngModel)]="filters.frameworks">
                     <option selected value="">Select All</option>
-                    <option value="Angular">Angular</option>
-                    <option value="Laravel">Laravel</option>
+                    <option *ngFor="let item of projects.frameworks" value="{{ item }}">{{ item }}</option>
                 </select>
             </div>
 

@@ -11,11 +11,6 @@ export class ProjectsComponent implements OnInit {
 
   projects = new ProjectData();
 
-  filterargs = {title: 'MySQL'};
-  /*filters = {
-    MySQL: false,
-    JSTS: false,
-  };*/
   filters = {
     languages: '',
     frameworks: '',

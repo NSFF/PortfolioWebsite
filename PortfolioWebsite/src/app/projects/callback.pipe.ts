@@ -8,24 +8,16 @@ export class ProjectFilterPipe implements PipeTransform {
     frameworkFilter(items: any[], args?: any): any {
         if(args.frameworks == '') {
             return items
-        }
-        else if(args.frameworks == 'Angular') {
-            return items.filter(item => item.frameworks.includes('Angular'));
-        }
-        else if(args.frameworks == 'Laravel') {
-            return items.filter(item => item.frameworks.includes('Laravel'));
+        } else {
+            return items.filter(item => item.frameworks.includes(args.frameworks));
         }
     }
 
     languageFilter(items: any[], args?: any): any {
         if(args.languages == '') {
             return items
-        }
-        else if(args.languages == 'MySQL') {
-            return items.filter(item => item.languages.includes('MySQL'));
-        }
-        else if(args.languages == 'JavaScript/TypeScript') {
-            return items.filter(item => item.languages.includes('JavaScript/TypeScript'));
+        } else {
+            return items.filter(item => item.languages.includes(args.languages));
         }
     }
 
