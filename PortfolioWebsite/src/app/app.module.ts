@@ -12,6 +12,9 @@ import { NgChartsModule } from 'ng2-charts';
 import { CertificatesComponent } from './certificates/certificates.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ProjectFilterPipe } from './projects/callback.pipe';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -23,12 +26,14 @@ import { ProjectsComponent } from './projects/projects.component';
     SkillsComponent,
     CertificatesComponent,
     ContactComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ProjectFilterPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgChartsModule
+    NgChartsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

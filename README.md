@@ -37,3 +37,8 @@ ng build && npm run aws-deploy
 * Auto play of video's on refresh not working: https://stackoverflow.com/questions/53756695/angular-html-fullscreen-video-autoplay-not-working
 * Setting up a barchart in Angular: https://www.youtube.com/watch?v=N1kbXS4tjMw
 * Radar Chart and official ng2-charts docu: https://valor-software.com/ng2-charts/#/RadarChart
+* Website design inspired on this React website: https://github.com/ryantran2165/ryantran2165.github.io
+* Applying filters to an array in Angular: https://stackoverflow.com/questions/34164413/how-to-apply-filters-to-ngfor
+* Applying filters to an array in Angular: https://www.youtube.com/watch?v=YTCBV9dhZ54
+* Don't forget to import this module to use ngModel: https://stackoverflow.com/questions/43298011/angular-error-cant-bind-to-ngmodel-since-it-isnt-a-known-property-of-inpu
+* Filtering dropdown menu in Angular: https://stackoverflow.com/questions/52645549/angular-filtering-with-dropdown
