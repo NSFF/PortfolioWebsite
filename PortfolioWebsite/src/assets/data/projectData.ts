@@ -73,7 +73,7 @@ export class ProjectData {
         {
             githubLink: "https://www.kaggle.com/code/nsff591/white-wine-data-engineering-rf-lightgbm-0-82",
             date: "2022",
-            title: "White Wine: Data engineering/RF/LightGBM[0.82]",
+            title: "White Wine: Data engineering LightGBM [0.82]",
             description: "Developed a model that can predict the quality of white wine",
             languages: ["Python"],
             sourceControl: ["Kaggle"],

@@ -20,7 +20,8 @@ Versions:
 If you have setup your aws serverless static website by making use of S3 buckets and Route 53 you can test and deploy your code using:
 ```
 ng build
-npm run aws-deploy
+aws s3 sync dist/ s3://robinvc.be --exclude "*.js"
+aws s3 sync dist/ s3://robinvc.be --include "*.js" --content-type application/javascript
 ```
 
 # Known Bugs
@@ -43,3 +44,4 @@ npm run aws-deploy
 * Applying filters to an array in Angular: https://www.youtube.com/watch?v=YTCBV9dhZ54
 * Don't forget to import this module to use ngModel: https://stackoverflow.com/questions/43298011/angular-error-cant-bind-to-ngmodel-since-it-isnt-a-known-property-of-inpu
 * Filtering dropdown menu in Angular: https://stackoverflow.com/questions/52645549/angular-filtering-with-dropdown
+* Attempt at fixing a deployment issue: https://github.com/aws-amplify/amplify-cli/issues/1995
