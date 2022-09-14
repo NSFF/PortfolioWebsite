@@ -19,7 +19,8 @@ Versions:
 
 If you have setup your aws serverless static website by making use of S3 buckets and Route 53 you can test and deploy your code using:
 ```
-ng build && npm run aws-deploy
+ng build
+npm run aws-deploy
 ```
 
 # Known Bugs
