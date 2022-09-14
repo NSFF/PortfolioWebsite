@@ -1,37 +1,3 @@
-.backgroundVideo {
-  position: absolute;
-  z-index: -1;
-}
-
-#backgroundVideoSize {
-  position: fixed;
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-}
-
-.videoDarkening {
-  position: fixed;
-  z-index: -1;
-  background: rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 100%;
-}
-
-.profilePicture {
-  float: left;
-  margin: 0 auto;
-  width: 30%;
-  border-radius: 10%;
-  border: 0.20rem solid rgba(3, 117, 13, 0.318);
-}
-
-.profilePicture:hover {
-  transition: 0.75s;
-  width: 35%;
-}
-
-
 @media (min-width: 700px) {
   .lowBanner {
     position: relative;
