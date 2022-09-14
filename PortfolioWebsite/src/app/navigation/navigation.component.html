@@ -9,7 +9,7 @@
             <ul class="navbar-nav me-auto mb-0 mb-lg-0">
                 <li class="nav-item green-navbar-link"
                     *ngFor="let navItem of navigationList; index as i; last as isLast">
-                    <a class="nav-link active green-navbar-link" href="">
+                    <a class="nav-link active green-navbar-link" href="{{ navToId(navItem) }}">
                         {{ navItem }}
                     </a>
                 </li>

@@ -26,15 +26,6 @@
   border: 0.20rem solid rgba(3, 117, 13, 0.318);
 }
 
-.cardCenter {
-  position: relative;
-  width: 75%;
-  margin: auto;
-  top: 2.5rem;
-  margin-top: 2.5rem;
-}
-
-
 .profilePicture:hover {
   transition: 0.75s;
   width: 35%;
@@ -52,7 +43,6 @@
     width: 75%;
     padding: 1.5rem;
     height: 100%;
-    z-index: -1;
   }
 }
 
@@ -67,6 +57,5 @@
     width: 100%;
     padding: 1.5rem;
     height: 100%;
-    z-index: -1;
   }
 }
