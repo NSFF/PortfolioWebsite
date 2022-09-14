@@ -40,7 +40,16 @@ export class SkillsComponent implements OnInit {
   ]}
   knowledgeChartOptions: ChartConfiguration['options'] = {
     responsive: true,
-    maintainAspectRatio: false
+    maintainAspectRatio: false,
+    scales: {
+      r: {
+        pointLabels: {
+          font: {
+            size: 14
+          }
+        }
+      }
+    }
   }
 
 

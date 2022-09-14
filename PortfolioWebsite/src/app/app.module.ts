@@ -14,6 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectFilterPipe } from './projects/callback.pipe';
 import { FormsModule } from '@angular/forms';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { FormsModule } from '@angular/forms';
     CertificatesComponent,
     ContactComponent,
     ProjectsComponent,
-    ProjectFilterPipe
+    ProjectFilterPipe,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,

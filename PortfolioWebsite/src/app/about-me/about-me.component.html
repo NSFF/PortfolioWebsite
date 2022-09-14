@@ -1,0 +1,29 @@
+<div class="bgBlock">
+    <h2 class="ms-2 text-center">About Me</h2>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <h2 class="ms-2 text-center">My Personality Type</h2>
+            <h4 class="text-center"><a target="_blank"
+                    href="https://www.16personalities.com/intj-personality">Architect: INTJ-T</a>
+            </h4>
+            <img
+                src="https://static.neris-assets.com/images/personality-types/headers/analysts_Architect_INTJ_personality_header.svg">
+        </li>
+        <li class="list-group-item">
+            <h2 class="ms-2 text-center">My Interests</h2>
+            <div class="barChart">
+                <canvas height="350%" baseChart [data]="interestsChartData" [labels]="interestsChartLabels"
+                    [options]="interestsChartOptions" [plugins]="interestsChartPlugins" [legend]="interestsChartLegend"
+                    [type]="interestsChartType"></canvas>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <h2 class="ms-2 text-center">My Stats</h2>
+            <div class="barChart">
+                <canvas height="350%" baseChart [data]="statsChartData" [labels]="statsChartLabels"
+                    [options]="statsChartOptions" [plugins]="statsChartPlugins" [legend]="statsChartLegend"
+                    [type]="statsChartType"></canvas>
+            </div>
+        </li>
+    </ul>
+</div>
