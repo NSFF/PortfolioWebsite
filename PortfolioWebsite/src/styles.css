@@ -10,6 +10,10 @@
   background-color: rgba(3, 117, 13, 0.318);
 }
 
+body {
+  background-color: rgba(3, 117, 13, 0.1);
+}
+
 @media (min-width: 700px) {
   .bgBlock {
     margin-top: 6rem;
