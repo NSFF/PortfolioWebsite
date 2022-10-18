@@ -1,6 +1,16 @@
 export class ProjectData {
     data = [
         {
+            githubLink: "",
+            date: "2022",
+            title: "Radix Coding Challenge - 72% score (70% required to get internship technical interview)",
+            description: "Developed a ML model which can predict the top 5 ranked movie genres based on a synopsis. The challenge of this project was it's poor dataset which was given. A Lot of data analysis/engineering was required.",
+            languages: ["Python"],
+            sourceControl: ["Private Link"],
+            frameworks: ["keras","Pandas", "NumPy","Scikit-learn", 'TensorFlow', "FastAPI", "Spacy", "NLTK"],
+            ML: ["ML","NN","NLP","Data Engineering", "Statistics"]
+        },
+        {
             githubLink: "https://github.com/NSFF/PortfolioWebsite",
             date: "2022",
             title: "My Portfolio Website",
@@ -232,6 +242,6 @@ export class ProjectData {
         },
     ];
     languages = ['Python','C', 'JavaScript/TypeScript', 'Scala', 'Java', 'Assembly', 'Racket', 'Matlab', 'HTML', 'CSS', 'PHP','C#','SQL', 'XML', 'JSON', 'Swift'];
-    frameworks = ['keras', 'Scikit-learn', 'Seaborn', 'NumPy', 'Pandas','Laravel', 'PyTorch', 'MySQL', 'TensorFlow', 'NN4j', '.Net','ASP.Net', 'Xamarin', 'Angular', 'AWS', 'Docker', 'SPSS'];
+    frameworks = ["FastAPI", "Spacy", "NLTK", 'keras', 'Scikit-learn', 'Seaborn', 'NumPy', 'Pandas','Laravel', 'PyTorch', 'MySQL', 'TensorFlow', 'NN4j', '.Net','ASP.Net', 'Xamarin', 'Angular', 'AWS', 'Docker', 'SPSS'];
 
 }
