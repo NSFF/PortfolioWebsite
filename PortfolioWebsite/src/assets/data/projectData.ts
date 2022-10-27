@@ -3,6 +3,16 @@ export class ProjectData {
         {
             githubLink: "",
             date: "2022",
+            title: "ML6 Coding Challenge - 93% score (75% required to get internship technical interview)",
+            description: "Developed a ML model which can classify 4 different kind of mugs. Partly using Google Cloud AI platform.",
+            languages: ["Python"],
+            sourceControl: ["Private Link"],
+            frameworks: ["keras", "NumPy","Scikit-learn", 'TensorFlow', "Google Cloud"],
+            ML: ["NN","CNN","Data Engineering", "Statistics"]
+        },
+        {
+            githubLink: "",
+            date: "2022",
             title: "Radix Coding Challenge - 72% score (70% required to get internship technical interview)",
             description: "Developed a ML model which can predict the top 5 ranked movie genres based on a synopsis. The challenge of this project was it's poor dataset which was given. A Lot of data analysis/engineering was required.",
             languages: ["Python"],
@@ -242,6 +252,6 @@ export class ProjectData {
         },
     ];
     languages = ['Python','C', 'JavaScript/TypeScript', 'Scala', 'Java', 'Assembly', 'Racket', 'Matlab', 'HTML', 'CSS', 'PHP','C#','SQL', 'XML', 'JSON', 'Swift'];
-    frameworks = ["FastAPI", "Spacy", "NLTK", 'keras', 'Scikit-learn', 'Seaborn', 'NumPy', 'Pandas','Laravel', 'PyTorch', 'MySQL', 'TensorFlow', 'NN4j', '.Net','ASP.Net', 'Xamarin', 'Angular', 'AWS', 'Docker', 'SPSS'];
+    frameworks = ["FastAPI", "Spacy", "NLTK", 'keras', 'Scikit-learn', 'Seaborn', 'NumPy', 'Pandas','Laravel', 'PyTorch', 'MySQL', 'TensorFlow', 'NN4j', '.Net','ASP.Net', 'Xamarin', 'Angular', 'AWS', 'Google Cloud', 'Docker', 'SPSS'];
 
 }
